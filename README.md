@@ -26,3 +26,10 @@ digraph distances {
 * Install dependencies with `bundle install`
 * Run the script with `ruby distance.rb`
 * Run the test with `rspec distance.rb`
+
+## FAQ
+Q: Why did you use a gem?
+A: Because i didn't want to reinvent the wheel and i don't see the point in producing a solution which would probably be inferior and incomplete 
+compared to a complete, peer-reviewed and battled-tested solution by a group of people who have spend more than seven years researching and building it. 
+
+Similar to why you shouldn't roll your authentication solution https://security.stackexchange.com/questions/18197/why-shouldnt-we-roll-our-own   

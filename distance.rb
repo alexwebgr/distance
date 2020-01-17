@@ -3,9 +3,6 @@ require 'rgl/traversal'
 require 'rgl/dijkstra'
 
 class Distance
-  attr_accessor :graph
-  attr_accessor :edge_weights
-
   def initialize(edge_weights, vertices)
     @graph = RGL::DirectedAdjacencyGraph.new
     @graph.add_vertices(vertices)
